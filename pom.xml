@@ -11,6 +11,9 @@
   <url>http://www.example.com</url>
 
   <properties>
+    <sparkjava.version>2.2</sparkjava.version>
+    <sparkjava-freemarker.version>2.0.0</sparkjava-freemarker.version>
+
     <junit.version>4.12</junit.version>
     <hamcrest.version>1.3</hamcrest.version>
     <mockito.version>1.10.19</mockito.version>
@@ -19,6 +22,17 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.sparkjava</groupId>
+      <artifactId>spark-core</artifactId>
+      <version>${sparkjava.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sparkjava</groupId>
+      <artifactId>spark-template-freemarker</artifactId>
+      <version>${sparkjava-freemarker.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
