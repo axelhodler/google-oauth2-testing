@@ -13,7 +13,7 @@ public class Main {
       Map<String, Object> attributes = new HashMap<>();
       attributes.put("message", "Hello FreeMarker World");
 
-      return new ModelAndView(attributes, "index.ftl");
+      return new ModelAndView(attributes, "index.html");
   }, new FreeMarkerTemplateEngine());
   }
 }
